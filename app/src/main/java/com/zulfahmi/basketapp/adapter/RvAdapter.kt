@@ -9,7 +9,7 @@ import com.zulfahmi.basketapp.R
 import com.zulfahmi.basketapp.model.Matches
 import kotlinx.android.synthetic.main.history_item.view.*
 
-class RvAdapter(val context: Context, var matchList: ArrayList<Matches>): RecyclerView.Adapter<RvAdapter.ViewHolder>() {
+class RvAdapter(val context: Context, var matchList: List<Matches>): RecyclerView.Adapter<RvAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
         return ViewHolder(
