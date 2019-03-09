@@ -20,7 +20,7 @@ class HistoryActivity : AppCompatActivity() {
             Matches(131, 10)
         )
 
-        val matchesAdapter = RvAdapter(listMatches)
+        val matchesAdapter = RvAdapter(applicationContext, listMatches)
 
         recycler_view.apply{
             layoutManager = LinearLayoutManager(this@HistoryActivity)
