@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Basketball App</string>
+    <string name="basket_ball_app">Basket Ball App</string>
+    <string name="history">History</string>
+    <string name="three_point">+3 Point</string>
+    <string name="one_point">+1 Point</string>
+    <string name="reset">Reset</string>
+</resources>
